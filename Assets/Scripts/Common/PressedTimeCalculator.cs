@@ -9,14 +9,21 @@ namespace Common
         public event Action NumberIncreased = delegate { };
         
         [SerializeField] private Input _input = null;
-        [SerializeField] private float _increase = 0.2f;
+        [SerializeField] private float _increase = 1f;
         [SerializeField] private float _minNumber = 100f;
-        [SerializeField] private float _maxNumber = 500;
+        [SerializeField] private float _maxNumber = 350f;
         
         private Coroutine _coroutine = null;
 
+        private WaitForEndOfFrame _endOfFrame = null;
+
         private float _number = 0;
-        
+
+        private void Awake()
+        {
+            _endOfFrame = new WaitForEndOfFrame();
+        }
+
         private void OnEnable()
         {
             _input.Pressed += OnPressed;
@@ -56,8 +63,10 @@ namespace Common
             while (_number < _maxNumber)
             {
                 _number += _increase;
+
+                Debug.Log(_number);
                 
-                yield return null;
+                yield return _endOfFrame;
             }
             
             NumberIncreased.Invoke();
