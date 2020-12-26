@@ -11,14 +11,12 @@ namespace Common
         
         [SerializeField] private Input _input = null;
         [SerializeField] private float _increase = 0.2f;
+        [SerializeField] private float _minNumber = 100f;
         
         private Coroutine _coroutine = null;
 
         private float _number = 0;
-
-        // prevent second tap until player grounded
-        private bool _allowed = true;
-
+        
         private void OnEnable()
         {
             _input.Pressed += OnPressed;
@@ -33,17 +31,15 @@ namespace Common
 
         private void OnPressed()
         {
-            if (!_allowed) return;
-            
             _coroutine = StartCoroutine(IncreaserRoutine());
         }
         
         private void OnPressedUp()
         {
-            if (!_allowed) return;
-
             if (_coroutine != null)
                 StopCoroutine(_coroutine);
+            
+            if (_number < _minNumber) return;
 
             NumberIncreased.Invoke();
         }
@@ -60,7 +56,6 @@ namespace Common
             while (true)
             {
                 _number += _increase;
-                
                 yield return null;
             }
         }

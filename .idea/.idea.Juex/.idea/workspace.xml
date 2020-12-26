@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b58ab2f5-cfec-41d5-9e29-06a09e43faf9" name="Default Changelist" comment="" />
+    <list default="true" id="b58ab2f5-cfec-41d5-9e29-06a09e43faf9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Juex/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Juex/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Juex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Juex/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationLauncher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationLauncher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Defeat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Defeat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PressedTimeCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PressedTimeCalculator.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationLauncher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Input.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpBinder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level_1.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Jumper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PressedTimeCalculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloorDetector.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,18 +35,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Input.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Jump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Jumper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Defeat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloorBinder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpBinder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloorDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Defeat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PressedTimeCalculator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimationLauncher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloorDetector.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1mBZ4i2DXPyn5jSoYqhCanroudP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,6 +57,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -72,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608968755622</updated>
       <workItem from="1608968759097" duration="12823000" />
+      <workItem from="1608984529918" duration="581000" />
     </task>
     <servers />
   </component>
