@@ -1,8 +1,7 @@
 ﻿using Common;
-using Player;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Player
 {
     public class JumpBinder : MonoBehaviour
     {

@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Juex.Input
+namespace Common
 {
     public class Input : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {

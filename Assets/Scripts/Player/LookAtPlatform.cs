@@ -2,7 +2,7 @@
 using Platform;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Player
 {
     public class LookAtPlatform : MonoBehaviour
     {

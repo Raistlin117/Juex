@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using DG.Tweening;
 using UnityEngine;
-using Input = Juex.Input.Input;
 
-namespace DefaultNamespace
+namespace Common
 {
     public class StrengthIndicator : MonoBehaviour
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Player
+namespace Animations
 {
     public class AnimationPlayer : MonoBehaviour
     {

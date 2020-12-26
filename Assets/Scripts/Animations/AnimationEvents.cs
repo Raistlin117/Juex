@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace DefaultNamespace
+namespace Animations
 {
     public class AnimationEvents : MonoBehaviour
     {

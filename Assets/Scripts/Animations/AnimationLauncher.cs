@@ -2,7 +2,7 @@
 using Player;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Animations
 {
     public class AnimationLauncher : MonoBehaviour
     {

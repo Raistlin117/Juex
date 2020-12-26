@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
-using Input = Juex.Input.Input;
 
 namespace Common
 {
@@ -57,9 +56,7 @@ namespace Common
             while (_number < _maxNumber)
             {
                 _number += _increase;
-
-                Debug.Log(_number);
-
+                
                 yield return null;
             }
             
