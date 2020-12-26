@@ -12,6 +12,7 @@ namespace DefaultNamespace
         [SerializeField] private float _maxYPosition = 1500f;
         [SerializeField] private float _maxReachTime = 2f;
         [SerializeField] private float _backDelay = 2;
+        [SerializeField] private float _minStrenght = 300f;
 
         private Tween _moveTween = null;
 
@@ -40,7 +41,7 @@ namespace DefaultNamespace
         {
             _moveTween?.Kill();
 
-            if (transform.localPosition.y < 280)
+            if (transform.localPosition.y < _minStrenght)
             {
                 _moveTween = _rectTransform.DOLocalMoveY(0, 0);
             }

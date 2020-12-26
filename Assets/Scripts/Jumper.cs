@@ -12,7 +12,7 @@ namespace Player
         {
             if (!_floorDetector.IsOnGround) return;
             
-            Vector3 force = transform.position + ((Vector3.up * _jumpUpMultiplier) + Vector3.forward) * jumpStrength;
+            Vector3 force = transform.position + ((Vector3.up * _jumpUpMultiplier) + transform.forward) * jumpStrength;
             
             _rigidbody.AddForce(force, ForceMode.Acceleration);
         }

@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class FloorDetector : MonoBehaviour
 {
-    public event Action Grounded = delegate { };
+    public event Action<Collider> Grounded = delegate { };
     public bool IsOnGround { get; set; } = true;
 
     private void OnTriggerEnter(Collider other)
     {
         IsOnGround = true;
-        Grounded.Invoke();
+        Grounded.Invoke(other);
     }
 
     private void OnTriggerExit(Collider other)

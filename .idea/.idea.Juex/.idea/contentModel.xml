@@ -30,6 +30,8 @@
           <e p="Input.cs" t="Include" />
           <e p="JumpBinder.cs" t="Include" />
           <e p="Jumper.cs" t="Include" />
+          <e p="LookAtPlatform.cs" t="Include" />
+          <e p="PlatformIndex.cs" t="Include" />
           <e p="PressedTimeCalculator.cs" t="Include" />
           <e p="StrengthIndicator.cs" t="Include" />
         </e>

@@ -27,7 +27,7 @@ namespace DefaultNamespace
             _animationPlayer.PlayJumpUp();
         }
 
-        private void OnFloorDetected()
+        private void OnFloorDetected(Collider collider)
         {
             _animationPlayer.PlayJumpDown();
         }
