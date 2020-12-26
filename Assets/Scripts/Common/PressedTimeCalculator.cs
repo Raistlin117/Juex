@@ -56,6 +56,11 @@ namespace Common
             return _number;
         }
 
+        public void ResetNumber()
+        {
+            _number = 0;
+        }
+
         private IEnumerator IncreaserRoutine()
         {
             _number = 0;

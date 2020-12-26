@@ -10,7 +10,6 @@ namespace Common
         [SerializeField] private PressedTimeCalculator _pressedTime = null;
         [SerializeField] private RectTransform _rectTransform = null;
         [SerializeField] private Input _input = null;
-        [SerializeField] private float _maxReachTime = 2f;
         [SerializeField] private float _backDelay = 2;
         [SerializeField] private float _minStrenght = 300f;
         [SerializeField] private float _multiplier = 2;
@@ -79,9 +78,11 @@ namespace Common
 
         private IEnumerator Synchronization()
         {
+            _pressedTime.ResetNumber();
+            
             while (true)
             {
-                transform.localPosition = Vector3.up * _pressedTime.GetIncreasedNumber() * _multiplier;
+                transform.localPosition = Vector3.up * (_pressedTime.GetIncreasedNumber() * _multiplier);
                 
                 yield return _endOfFrame;
             }
