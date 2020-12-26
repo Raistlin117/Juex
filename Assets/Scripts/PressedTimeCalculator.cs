@@ -12,6 +12,7 @@ namespace Common
         [SerializeField] private Input _input = null;
         [SerializeField] private float _increase = 0.2f;
         [SerializeField] private float _minNumber = 100f;
+        [SerializeField] private float _maxNumber = 500;
         
         private Coroutine _coroutine = null;
 
@@ -53,11 +54,16 @@ namespace Common
         {
             _number = 0;
             
-            while (true)
+            while (_number < _maxNumber)
             {
                 _number += _increase;
+
+                Debug.Log(_number);
+
                 yield return null;
             }
+            
+            NumberIncreased.Invoke();
         }
     }
 }
