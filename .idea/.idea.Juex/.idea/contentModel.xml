@@ -28,6 +28,7 @@
             <e p="AnimationPlayer.cs" t="Include" />
           </e>
           <e p="Common" t="Include">
+            <e p="CameraFollower.cs" t="Include" />
             <e p="Defeat.cs" t="Include" />
             <e p="Input.cs" t="Include" />
             <e p="PressedTimeCalculator.cs" t="Include" />
